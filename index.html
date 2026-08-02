@@ -15,6 +15,80 @@ font-family:Arial,sans-serif;
 
 body{
 background:#f4f4f4;
+
+
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayy Enterprise - One Stop Business Solutions</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #0d0d0d; color: #ffffff; font-family: system-ui, -apple-system, sans-serif; }
+        .brand-gradient { background: linear-gradient(135deg, #d32f2f 0%, #8e0000 100%); }
+        .card-bg { background: #1a1a1a; border: 1px solid #333333; }
+    </style>
+</head>
+<body class="flex justify-center items-center min-h-screen p-0 sm:p-4">
+
+    <!-- Main Container -->
+    <div class="w-full max-w-md bg-black min-h-screen sm:min-h-[844px] sm:rounded-[36px] overflow-hidden shadow-2xl border border-neutral-800 flex flex-col justify-between">
+        <div>
+            <!-- Header -->
+            <header class="p-4 flex justify-between items-center bg-neutral-900 border-b border-neutral-800">
+                <div class="flex items-center gap-2">
+                    <div class="w-9 h-9 rounded-full brand-gradient flex items-center justify-center font-bold text-lg shadow-lg border border-red-400">
+                        R
+                    </div>
+                    <div>
+                        <h1 class="text-base font-bold tracking-wider text-red-500 uppercase leading-none">Rayy</h1>
+                        <span class="text-[10px] text-gray-400 uppercase tracking-widest">Enterprise</span>
+                    </div>
+                </div>
+                <button class="text-gray-300 hover:text-white" onclick="alert('Rayy Enterprise App - Version 1.0')">
+                    <i class="fa-solid fa-circle-info text-lg"></i>
+                </button>
+            </header>
+
+            <!-- Status Banner -->
+            <div class="p-4">
+                <div class="card-bg p-4 rounded-xl border border-red-900/50 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs text-green-400 font-semibold">● Cloudflare Connected</span>
+                        <h2 class="text-sm font-bold mt-0.5">Rayy Business Portal</h2>
+                    </div>
+                    <i class="fa-solid fa-cloud text-red-500 text-2xl"></i>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="px-4 space-y-3">
+                <a href="./money-transfer.html" class="card-bg p-4 rounded-xl flex items-center justify-between hover:border-red-500 transition block">
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-money-bill-transfer text-red-500 text-xl"></i>
+                        <div>
+                            <h3 class="text-sm font-bold">Money Transfer</h3>
+                            <p class="text-[10px] text-gray-400">KBZPay, Wave, AYA Pay</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right text-xs text-gray-500"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="p-4 text-center text-[11px] text-gray-500 border-t border-neutral-900">
+            © 2026 Rayy Enterprise. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
+
 }
 
 header{
