@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Rayy Enterprise - Get in touch with us via phone, Telegram or Facebook">
+    <meta name="theme-color" content="#6B21A8">
+    <title>Contact Us | Rayy Enterprise</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Padauk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <span class="loader-text">RAYY</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon"><span>R</span></div>
+                <span class="logo-text">Rayy <span class="gold">Enterprise</span></span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i><i class="fas fa-sun"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-content">
+            <h1 class="animate-fadeInUp">Contact <span class="gradient-text">Us</span></h1>
+            <p class="animate-fadeInUp delay-1">We'd love to hear from you</p>
+            <div class="breadcrumb animate-fadeInUp delay-2">
+                <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Contact</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info animate-fadeInLeft">
+                    <span class="section-badge">Get In Touch</span>
+                    <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                    <p>Have questions? We're here to help. Reach out to us through any of these channels.</p>
+                    
+                    <div class="contact-cards">
+                        <a href="tel:+959xxxxxxxxx" class="contact-card glass-card">
+                            <div class="contact-card-icon phone-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-card-info">
+                                <h4>Phone</h4>
+                                <p>+95 9 xxx xxx xxx</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://t.me/RayyEnterprise" target="_blank" class="contact-card glass-card">
+                            <div class="contact-card-icon telegram-icon">
+                                <i class="fab fa-telegram"></i>
+                            </div>
+                            <div class="contact-card-info">
+                                <h4>Telegram</h4>
+                                <p>@RayyEnterprise</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://facebook.com/rayyenterprise" target="_blank" class="contact-card glass-card">
+                            <div class="contact-card-icon facebook-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="contact-card-info">
+                                <h4>Facebook</h4>
+                                <p>Rayy Enterprise</p>
+                            </div>
+                        </a>
+                        
+                        <div class="contact-card glass-card">
+                            <div class="contact-card-icon email-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-card-info">
+                                <h4>Email</h4>
+                                <p>info@rayyenterprise.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper animate-fadeInRight">
+                    <form class="contact-form glass-card" id="contactForm">
+                        <h3>Send us a Message</h3>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="products">Products Inquiry</option>
+                                <option value="services">Services Inquiry</option>
+                                <option value="pawn">Pawn Service</option>
+                                <option value="transfer">Money Transfer</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Map -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header animate-fadeInUp">
+                <span class="section-badge">Find Us</span>
+                <h2 class="section-title">Our <span class="gradient-text">Location</span></h2>
+            </div>
+            <div class="map-wrapper glass-card animate-fadeInUp">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241318.11609483597!2d95.95602825!3d16.8935932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1eb809a97e8d1%3A0x5b1e78e8b1e2b1a1!2sYangon!5e0!3m2!1sen!2smm!4v1234567890" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0; border-radius: 16px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon"><span>R</span></div>
+                        <span class="logo-text">Rayy <span class="gold">Enterprise</span></span>
+                    </div>
+                    <p>Your trusted partner for quality products and professional services in Myanmar.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="#" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Professional Services</a></li>
+                        <li><a href="services.html#pawn">Pawn Service</a></li>
+                        <li><a href="services.html#transfer">Money Transfer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Yangon, Myanmar</li>
+                        <li><i class="fas fa-phone"></i> +95 9 xxx xxx xxx</li>
+                        <li><i class="fab fa-telegram"></i> @RayyEnterprise</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rayy Enterprise. All Rights Reserved.</p>
+                <p>Designed with <i class="fas fa-heart" style="color: #D4AF37;"></i> by Rayy Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Telegram AI Bot Floating Button -->
+    <a href="https://t.me/RayyEnterpriseBot" target="_blank" class="telegram-float" aria-label="Chat with AI Bot">
+        <i class="fab fa-telegram"></i>
+        <span class="telegram-tooltip">Chat with AI Bot</span>
+    </a>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/app.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>
